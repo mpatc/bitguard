@@ -1,17 +1,3 @@
-
-// Count of odd integers
-// Count of negative integers
-// The average of all integers (round to 2 decimal)
-// The median of all integers
-// The function should return these values in an object.
-
-// Test case:
-
-// arrayAnalyzer(7, -3, 0, 12, 44, -5, 3);
-// would return:
-
-// { "odds": 4, "negatives": 2, "avg": 8.29, "median": 3 }
-
 var nums = [7, -3, 0, 12, 44, -5, 3, 234234, 32423];
 var vals = {
 	odds: nums.length,
