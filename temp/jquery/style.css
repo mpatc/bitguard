@@ -1,0 +1,22 @@
+.column {
+display: inline-block;
+width: 30%
+}
+.column li {
+  display: inline-block;
+  width: auto;
+  height: 200px;
+  margin: 5px;
+  padding:20px;
+  background-color: darkblue;
+  color:white
+
+}
+.column.L2 li {
+
+  background-color: darkred
+
+}
+.column li.selected {
+  background-color: black
+}
